@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611572003 source:c:\users\naimul hp spectre\cpp_projects\precision\main.cpp
+	<iostream>
+	<cmath>
+	<limits>
+
