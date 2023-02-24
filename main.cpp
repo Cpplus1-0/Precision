@@ -55,10 +55,10 @@ int main()
     cout << "The fractional portion in string format is: " << parseFraction(flop - (int)flop, precision) << endl << endl;
 
     //Whole + Partial
-    cout << "The floating point number in string format is: " << parseDouble(flop, precision) << endl << endl;
+    cout << "The floating point number in string format with " << precision << " digit decimal precision is: " << parseDouble(flop, precision) << endl << endl;
 
     //Final Recursive Call
-    cout << "Final Recursive call double precision indexing: " << finalCall(flop, precision) << endl << endl;
+    //cout << "Final Recursive call double precision indexing: " << finalCall(flop, precision) << endl << endl;
 
     //Thank You Prompt
     cout << endl << "Thank you for using this program! " << endl;
